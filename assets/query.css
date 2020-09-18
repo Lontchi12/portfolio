@@ -1,0 +1,131 @@
+ 
+ /* big tablets to 1200px */
+ @media only screen and (max-width: 1200px) {
+    
+    #testimonials {
+        height: 150vh;
+    }
+     
+}
+ 
+ /* Small tablets to big tablets */
+ @media only screen and (max-width: 1023px) {
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        background: #333;
+        color: #fff;
+        padding: 1.5rem 8rem;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        border-bottom: 3px solid #3693ff;
+    }
+    #about .container {
+        margin: 20px;
+    }
+    #testiomonial .box {
+        margin: 20px;
+    }
+     
+}
+
+@media only screen and (max-width: 916px) {
+
+}
+ 
+ /* Small Screen to small tablets*/
+ @media only screen and (max-width: 720px) {
+     #navbar h1 a {
+         display: flex;
+         flex-direction: row;
+         font-size: 1rem;
+        
+     }
+     #navbar li a {
+         font-size: 1.1rem;
+     }
+     .showcase-content h1 {
+        font-size: 2.5rem;
+        
+    }
+    .showcase-content .btn {
+        font-size: 1rem;
+    }
+    .showcase-content {
+        top: 75px;
+    }
+    #about .about-image img {
+        display: block;
+        margin-left: auto;
+        width: 75%;
+        border-radius: 40%;
+        margin-top: 200px;
+    } 
+    #about {
+        padding: 0.5rem 0;
+        margin-top: 1.5rem;
+    }
+    #services h3 {
+        font-size: 1.2rem;
+    }
+    
+    #services .box i {
+        
+        margin: 0 0.3rem;
+        margin-bottom: 1rem;
+        /*margin-left: 0rem;
+         */
+    }
+    #services .box {
+        margin: 50px;
+        width: 100% !important; 
+        /* position: relative; */
+        
+    }
+    #box1 {
+        width: 100%;
+    }
+    
+    
+     
+}
+ 
+ /* Small Screen */
+ @media only screen and (max-width: 500px) {
+     #navbar h1 a {
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: stretch;
+         font-size: 1rem;
+     }
+     #navbar li a {
+        font-size: 1rem;
+    }
+    #about .about-text {
+        width: 100%;
+    }
+    #about .about-image {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    #about .about-content {
+        display: flex;
+        flex-direction: column;  
+    }
+    #services .boxes{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #testiomonial .box {
+        margin: 10px;
+        width: 100%;
+
+    }
+    #testimonials {
+        height: 105vh;
+    }
+
+
+ }
